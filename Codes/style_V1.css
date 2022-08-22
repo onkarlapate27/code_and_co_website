@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)100%,rgba(0, 0, 0, 0.5)100%), url("https://iili.io/gKmIee.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 450px;
+}
+
+.top-bar{
+    margin: 0px 0px 150px 0px;
+    position: absolute;
+    width: 100%;
+    min-height: 68px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#logo-image img{
+    float: left;
+    margin: 12px 150px 12px 40px;
+}
+
+.nav-bar a{
+    float: left;
+    margin: 30px 25px;
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-bar a:hover{
+    color: black;
+}
+
+#try-now-button button{
+    float: right;
+    margin: 18px 50px;
+    padding: 10px 30px;
+    background-color: #2086fb;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header{
+    position: absolute;
+    top: 215px;
+    margin: 0px 25%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.search-bar{
+    top:290px;
+    width: 50vw;
+    margin: 0 24%;
+}
+
+
+.search-bar form input{
+    float: left;
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    border-right: none;
+}
+
+.search-bar button{
+    width: 10%;
+    float: left;
+    padding: 25px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    border-left: none;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-bar a{
+        width: 100%;
+        margin: 0px 0px 15px 50px;
+    }
+
+    #try-now-button button{
+        float: left;
+        margin: 10px 0px 0px 35px;
+    }
+}

@@ -1,0 +1,233 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* hero section */
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)100%,rgba(0, 0, 0, 0.5)100%), url("https://iili.io/gKmIee.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* navigation bar */
+.hero__navbar{
+    position: fixed;
+    width: 100%;
+    min-height: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 0px;
+}
+
+.hero__logoimage{
+    float: left;
+    padding: 12px 0px 0px 40px;
+}
+
+.hero__navbar__ul{
+    list-style: none;
+    text-align: center;
+    width: 82%;
+    display: inline-block;
+}
+
+.hero__navbar__ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.hero__navbar__ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 1.5vw;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero__navbar__ul li a:hover{
+    color: black;
+    font-weight: 800;
+}
+
+.hero__navbar__btn{
+    position: absolute;
+    padding: 10px 30px;
+    right: 40px;
+    top: 15px;
+    background-color:#2086fb;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Open Sans', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.hero__navbar__btn:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.ul__dropdown_btn{
+    display: none;
+    padding: 10px 20px;
+    background-color:#2086fb;
+    border: 0px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-family: 'Open Sans', 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.ul__dropdown_btn:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Hamburger menu styling */
+
+.hero__checkbox{
+    display: none;
+}
+
+.hero__hamb{
+    display: none;
+    float: right;
+    padding: 25px 20px 10px;
+    cursor: pointer;
+}
+
+.hero__hamb__hamblines{
+    display: block;
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 5px 0px;
+}
+
+/* header and search-bar */
+
+.hero__header{
+    position: relative;
+    top: 215px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 2.2vw;
+    font-weight: 300px;
+}
+
+.searchbar{
+    position: relative;
+    top: 240px;
+    width: 65vw;
+    margin: auto;
+}
+.searchbar__form{
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.searchbar__input{
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #4a4a4a;
+    text-align: left;
+    font-family: 'Open Sans', 'Open Sans', Arial, Helvetica, sans-serif;
+    background-image: url('../Images/search-icon.svg');
+    background-position: right 3% bottom 50%;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.searchbar__input:focus{
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:600px){
+    .hero__navbar__ul, .hero__navbar__btn{
+        display: none;
+    }
+
+    .hero__hamb{
+        display: block;
+    }
+
+    .hero__checkbox:checked ~ .hero__navbar__ul, .hero__navbar__ul li, .ul__dropdown_btn{
+        display: block;
+        float: right;
+        width: 100%;
+        margin: 5px 0px;
+        text-align:center; 
+    }
+
+    .hero__header{
+        font-size: 4vw;
+        top:0px;
+        margin: 370px 0px 25px 0px;
+    }
+
+    .searchbar{
+        top:0px;
+    }
+
+    .searchbar__input{
+        font-size: 2vw;
+        background-size: 15px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+    .hero__navbar__ul{
+        display: none;
+    }
+
+    .hero__navbar__btn{
+        right: 80px;
+    }
+
+    .hero__hamb{
+        display: block;
+    }
+
+    .hero__checkbox:checked ~ .hero__navbar__ul, .hero__navbar__ul li{
+        display: block;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 5px;
+        font-size: 25px;
+        text-align:center;
+    }
+
+    .hero__header{
+        font-size: 3vw;
+        margin: 350px 0px 25px 0px;
+        top:0px;
+    }
+    .searchbar{
+        top:0px;
+    }
+
+    .searchbar__input{
+        background-size: 20px;
+        font-size: 1.5vw;
+    }
+}
