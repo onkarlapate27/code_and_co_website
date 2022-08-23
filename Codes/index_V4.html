@@ -7,15 +7,19 @@
         content="Code & Co is the leading web development companies in the World that provides complete website designing & development services.">
     <meta name="keywords"
         content="codeandco, web development, web design, website design, website development, API, web services">
+    <meta property="og:title" content="Leading Web Development Company">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://full.io/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_V4.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/9dad4c4f3e.js" crossorigin="anonymous"></script>
     <title>Code and Co. - Leading Web Development Company</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header class="navigation font w-100">
+    <header class="navigation w-100">
         <!-- logo -->
         <nav class="logo float-left">
             <a href="#">
@@ -34,13 +38,10 @@
                 <li class="menu__items"><a href="#">Contacts</a></li>
             </ul>
         </nav>
-        <nav>
-            <button type="button" class="btn menu__btn float-right">TRY NOW</button>
-        </nav>
-
+        <button type="button" class="btn menu__btn float-right">TRY NOW</button>
         <!-- hamburger menu option -->
-        <input type="checkbox" id="drop-menu" class="drop-menu">
-        <label for="drop-menu" class="hamb">
+        <input type="checkbox" id="hamburger" class="hamburger">
+        <label for="hamburger" class="hamb">
             <span class="hamb__lines"></span>
             <span class="hamb__lines"></span>
             <span class="hamb__lines"></span>
@@ -48,93 +49,117 @@
 
         <!-- hidden menu -->
         <nav class="menu menu--hidden txt-center w-100">
-            <ul class="menu__main menu__main--hidden">
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Home</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">About us</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Services</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Products</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Pricing</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">API</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Support</a></li>
-                <li class="menu__items menu__items--hidden w-100"><a href="#">Contacts</a></li>
-                <li class="menu__items menu__items--hidden w-100"><button type="button" class="btn menu__btn--hidden w-50">TRY NOW</button></li>
+            <ul class="menu__main drop-menu">
+                <li class="menu__items drop-menu__items w-100"><a href="#">Home</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">About us</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">Services</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">Products</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">Pricing</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">API</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">Support</a></li>
+                <li class="menu__items drop-menu__items w-100"><a href="#">Contacts</a></li>
+                <li class="menu__items drop-menu__items w-100"><button type="button"
+                        class="btn menu__btn--hidden w-50">TRY NOW</button></li>
             </ul>
         </nav>
     </header>
     <section class="hero">
         <article class="hero__content">
-            <div class="hero__header title font txt-center">
+            <div class="hero__header title txt-center">
                 Get help about our products, basic knowledge and more
             </div>
-            <div class="border">
-                <input class="hero__searchbar w-100 font"  type="text" placeholder="Search for features, basic knowledge or options…">
-            </div>       
+            <div>
+                <input class="hero__searchbar w-100" type="text"
+                    placeholder="Search for features, basic knowledge or options…">
+                <button type="submit" class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </button>
+            </div>
         </article>
     </section>
     <section>
-        <article class="container w-100 font txt-center">
+        <article class="container w-100 txt-center">
             <ul class="container__ul">
                 <li class="container__item txt-center border-bottom">
-                    <img src="../Images/general.png"  alt="general information image">
-                    <h3 class="h3">General</h3>
+                    <img src="../Images/general.png" alt="general information image">
+                    <h3 class="subtitle">General</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center border-bottom">
-                    <img src="../Images/installation.png"  alt="installation image">
-                    <h3 class="h3">Implementation</h3>
+                    <img src="../Images/installation.png" alt="installation image">
+                    <h3 class="subtitle">Implementation</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center border-bottom">
                     <img src="../Images/tutorial.png" alt="tutorial image">
-                    <h3 class="h3">Tutorial</h3>
+                    <h3 class="subtitle">Tutorial</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center border-bottom">
                     <img src="../Images/basic-knowledge.png" alt="basic-knowledge image">
-                    <h3 class="h3">Basic Knowledge</h3>
+                    <h3 class="subtitle">Basic Knowledge</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center ">
                     <img src="../Images/how-to.png" alt="how to do image">
-                    <h3 class="h3">How-to</h3>
+                    <h3 class="subtitle">How-to</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center ">
-                    <img src="../Images/api.png"  alt="API Reference image">
-                    <h3 class="h3">API Reference</h3>
+                    <img src="../Images/api.png" alt="API Reference image">
+                    <h3 class="subtitle">API Reference</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center ">
                     <img src="../Images/trubleshhoting.png" alt="Troubleshooting image">
-                    <h3 class="h3">Troubleshooting</h3>
+                    <h3 class="subtitle">Troubleshooting</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
                 <li class="container__item txt-center">
                     <img src="../Images/costume-service.png" alt="costumer service image">
-                    <h3 class="h3">Customer Service</h3>
+                    <h3 class="subtitle">Customer Service</h3>
                     <p class="para">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo 
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
             </ul>
         </article>
     </section>
-    <section>
-        
+    <section class="subfooter">
+        <div class="txt-center">
+            <h2 class="subfooter__text title">
+                Didn’t find what you are looking for?
+            </h2>
+            <p class="subfooter__text para mb-50">
+                Don’t worry! Let’s chat with US
+            </p>
+            <div>
+                <button class="btn btn--big">REQUEST A CHAT</button>
+            </div>
+        </div>
     </section>
+    <section class="footer">
+        <p class="footer__text para para--small">
+            Copyright 2018 Code&CO ©. All rights Reserved
+        </p>
+    </section>
+    <button class="back_to_top">
+        <a href="#">^</a>
+    </button>
 </body>
+
 </html>
