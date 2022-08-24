@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Code & Co is the leading web development companies in the World that provides complete website designing & development services.">
+    <meta name="keywords"
+        content="codeandco, web development, web design, website design, website development, API, web services">
+    <meta property="og:title" content="Leading Web Development Company">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://full.io/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_V4.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/9dad4c4f3e.js" crossorigin="anonymous"></script>
+    <script>
+        window.onscroll = () => {
+            const navi = document.getElementById('nav');
+            if (this.scrollY <= 20) nav.className = 'navigation';
+            else nav.className = 'navigation--scroll';
+        };
+    </script>
+    <title>Code and Co. - Leading Web Development Company</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navigation" id="nav">
+        <!-- logo -->
+        <nav class="logo float-left">
+            <a href="#">
+                <img src="Images/tech-startup-logo-design-toronto-featured.png" alt="code and company logo">
+            </a>
+        </nav>
+        <nav class="menu">
+            <ul class="menu__main txt-center">
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Home</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">About us</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Services</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Products</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Pricing</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">API</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Support</a></li>
+                <li class="menu__items fs-14"><a class="uppercase" href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="btn menu__btn float-right">TRY NOW</button>
+        <!-- hamburger menu option -->
+        <input type="checkbox" id="hamburger" class="hamburger">
+        <label for="hamburger" class="hamb">
+            <span class="hamb__lines"></span>
+            <span class="hamb__lines"></span>
+            <span class="hamb__lines"></span>
+        </label>
+
+        <!-- hidden menu -->
+        <nav class="menu menu--hidden txt-center">
+            <ul class="menu__main drop-menu">
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Home</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">About us</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Services</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Products</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Pricing</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">API</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Support</a></li>
+                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Contacts</a></li>
+                <li class="menu__items drop-menu__items w-100"><button type="button"
+                        class="btn menu__btn--hidden w-50 fs-18">TRY NOW</button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__header title txt-white txt-center">
+                Get help about our products, basic knowledge and more
+            </div>
+            <div class="search-bar">
+                <input class="search-bar__input fs-16" type="text"
+                    placeholder="Search for features, basic knowledge or options…">
+                <button type="submit" class="search-icon" onclick="alert('Searching')">
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container w-100 txt-center">
+            <ul class="container__ul">
+                <li class="container__item txt-center border-bottom">
+                    <img src="Images/general.svg" alt="general information image">
+                    <h3 class="subtitle fs-18">General</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center border-bottom">
+                    <img src="Images/installation.svg" alt="installation image">
+                    <h3 class="subtitle fs-18">Implementation</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center border-bottom">
+                    <img src="Images/tutorial.svg" alt="tutorial image">
+                    <h3 class="subtitle fs-18">Tutorial</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center border-bottom">
+                    <img src="Images/basic-knowledge.svg" alt="basic-knowledge image">
+                    <h3 class="subtitle fs-18">Basic Knowledge</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center ">
+                    <img src="Images/how-to.svg" alt="how to do image">
+                    <h3 class="subtitle fs-18">How-to</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center ">
+                    <img src="Images/api.svg" alt="API Reference image">
+                    <h3 class="subtitle fs-18">API Reference</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center ">
+                    <img src="Images/trubleshhoting.svg" alt="Troubleshooting image">
+                    <h3 class="subtitle fs-18">Troubleshooting</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+                <li class="container__item txt-center">
+                    <img src="Images/costume-service.svg" alt="costumer service image">
+                    <h3 class="subtitle fs-18">Customer Service</h3>
+                    <p class="para lh-26 fs-16">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <section class="support">
+            <div class="txt-center pd-rt-lft-30">
+                <h2 class="txt-white support__text">
+                    Didn&apos;t find what you are looking for?
+                </h2>
+                <p class="txt-white fs-16 mb-50">
+                    Don&apos;t worry! Let&apos;s chat with US
+                </p>
+                <div>
+                    <button class="btn btn--wide">REQUEST A CHAT</button>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p class="copyright__text txt-white fs-14">
+                Copyright 2022 Code&CO ©. All rights Reserved
+            </p>
+        </section>
+    </footer>
+    <button id="topButton" class="back-to-top txt-white fs-18" onclick="toTop()">
+        ^
+    </button>
+
+    <script>
+        function toTop() {
+            document.documentElement.scrollTop = 0;
+        }
+
+        let topButton = document.getElementById('topButton');
+        let navi = document.getElementById('nav');
+
+        window.onscroll = () => {
+            if (document.documentElement.scrollTop > 60) {
+                topButton.style.display = "block";
+                nav.className = 'navigation--scroll';
+            } else {
+                topButton.style.display = "none";
+                nav.className = 'navigation';
+            }
+        };
+    </script>
+</body>
+
+</html>
