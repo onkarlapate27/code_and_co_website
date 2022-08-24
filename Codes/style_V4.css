@@ -96,6 +96,10 @@ li {
     list-style: none;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 a {
     text-decoration: none;
 }
@@ -151,7 +155,6 @@ a {
 }
 
 .menu__items a {
-    text-transform: uppercase;
     margin: 0px 14px;
     color: white;
     transition: 0.3s ease-in-out;
