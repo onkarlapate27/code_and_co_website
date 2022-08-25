@@ -10,43 +10,43 @@
     <meta property="og:title" content="Leading Web Development Company">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://onkarlapate27.github.io/code_and_co_website/">
+    <meta property="og:image" content="images/hero-4.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Codes/style_V4.css">
+    <link rel="stylesheet" href="codes/style_V4.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="icon" href="Images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9dad4c4f3e.js" crossorigin="anonymous"></script>
-    <script>
-        window.onscroll = () => {
-            const navi = document.getElementById('nav');
-            if (this.scrollY <= 20) nav.className = 'navigation';
-            else nav.className = 'navigation--scroll';
-        };
-    </script>
     <title>Code and Co. - Leading Web Development Company</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header class="navigation" id="nav">
+    <header class="navigation" id="navBar">
         <!-- logo -->
-        <nav class="logo float-left">
-            <a href="#">
-                <img src="Images/tech-startup-logo-design-toronto-featured.png" alt="code and company logo">
+        <div class="logo float-left">
+            <a href="javascript:void(0);">
+                <img class="dis-blk" src="images/tech-startup-logo.png" alt="code and company logo">
             </a>
-        </nav>
+        </div>
         <nav class="menu">
             <ul class="menu__main txt-center">
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Home</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">About us</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Services</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Products</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Pricing</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">API</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Support</a></li>
-                <li class="menu__items fs-14"><a class="uppercase" href="#">Contacts</a></li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Home</a></li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">About us</a>
+                </li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Services</a>
+                </li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Products</a>
+                </li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Pricing</a>
+                </li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">API</a></li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Support</a>
+                </li>
+                <li class="menu__items"><a class="txt-upper txt-sm txt-white" href="javascript:void(0);">Contacts</a>
+                </li>
             </ul>
         </nav>
-        <button type="button" class="btn menu__btn float-right">TRY NOW</button>
+        <button type="button" class="btn menu__btn float-right txt-upper">Try Now</button>
         <!-- hamburger menu option -->
         <input type="checkbox" id="hamburger" class="hamburger">
         <label for="hamburger" class="hamb">
@@ -58,26 +58,34 @@
         <!-- hidden menu -->
         <nav class="menu menu--hidden txt-center">
             <ul class="menu__main drop-menu">
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Home</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">About us</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Services</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Products</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Pricing</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">API</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Support</a></li>
-                <li class="menu__items drop-menu__items w-100 fs-18"><a class="uppercase" href="#">Contacts</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">Home</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">About us</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">Services</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">Products</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">Pricing</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">API</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0);">Support</a></li>
+                <li class="menu__items drop-menu__items w-100"><a class="txt-white txt-upper txt-lg"
+                        href="javascript:void(0)">Contacts</a></li>
                 <li class="menu__items drop-menu__items w-100"><button type="button"
-                        class="btn menu__btn--hidden w-50 fs-18">TRY NOW</button></li>
+                        class="btn menu__btn--hidden txt-upper w-50 txt-lg">Try Now</button></li>
             </ul>
         </nav>
     </header>
     <section class="hero">
-        <div class="hero__content">
+        <div class="container hero__content">
             <div class="hero__header title txt-white txt-center">
                 Get help about our products, basic knowledge and more
             </div>
             <div class="search-bar">
-                <input class="search-bar__input fs-16" type="text"
+                <input class="search-bar__input txt-md" type="text"
                     placeholder="Search for features, basic knowledge or options…">
                 <button type="submit" class="search-icon" onclick="alert('Searching')">
                     <i class="fa-solid fa-magnifying-glass fa-xl"></i>
@@ -86,61 +94,61 @@
         </div>
     </section>
     <section>
-        <div class="container w-100 txt-center">
-            <ul class="container__ul">
-                <li class="container__item txt-center border-bottom">
-                    <img src="Images/general.svg" alt="general information image">
-                    <h3 class="subtitle fs-18">General</h3>
-                    <p class="para lh-26 fs-16">
+        <div class="container products w-100 txt-center">
+            <ul class="products__ul">
+                <li class="products__item txt-center border-bottom">
+                    <img src="images/general.svg" alt="general information image">
+                    <h3 class="subtitle txt-lg">General</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center border-bottom">
-                    <img src="Images/installation.svg" alt="installation image">
-                    <h3 class="subtitle fs-18">Implementation</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center border-bottom">
+                    <img src="images/installation.svg" alt="installation image">
+                    <h3 class="subtitle txt-lg">Implementation</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center border-bottom">
-                    <img src="Images/tutorial.svg" alt="tutorial image">
-                    <h3 class="subtitle fs-18">Tutorial</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center border-bottom">
+                    <img src="images/tutorial.svg" alt="tutorial image">
+                    <h3 class="subtitle txt-lg">Tutorial</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center border-bottom">
-                    <img src="Images/basic-knowledge.svg" alt="basic-knowledge image">
-                    <h3 class="subtitle fs-18">Basic Knowledge</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center border-bottom">
+                    <img src="images/basic-knowledge.svg" alt="basic-knowledge image">
+                    <h3 class="subtitle txt-lg">Basic Knowledge</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center ">
-                    <img src="Images/how-to.svg" alt="how to do image">
-                    <h3 class="subtitle fs-18">How-to</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center ">
+                    <img src="images/how-to.svg" alt="how to do image">
+                    <h3 class="subtitle txt-lg">How-to</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center ">
-                    <img src="Images/api.svg" alt="API Reference image">
-                    <h3 class="subtitle fs-18">API Reference</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center ">
+                    <img src="images/api.svg" alt="API Reference image">
+                    <h3 class="subtitle txt-lg">API Reference</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center ">
-                    <img src="Images/trubleshhoting.svg" alt="Troubleshooting image">
-                    <h3 class="subtitle fs-18">Troubleshooting</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center ">
+                    <img src="images/trubleshhoting.svg" alt="Troubleshooting image">
+                    <h3 class="subtitle txt-lg">Troubleshooting</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
-                <li class="container__item txt-center">
-                    <img src="Images/costume-service.svg" alt="costumer service image">
-                    <h3 class="subtitle fs-18">Customer Service</h3>
-                    <p class="para lh-26 fs-16">
+                <li class="products__item txt-center">
+                    <img src="images/costume-service.svg" alt="costumer service image">
+                    <h3 class="subtitle txt-lg">Customer Service</h3>
+                    <p class="para lh-md txt-md">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                     </p>
                 </li>
@@ -148,47 +156,29 @@
         </div>
     </section>
     <footer>
-        <section class="support">
-            <div class="txt-center pd-rt-lft-30">
-                <h2 class="txt-white support__text">
+        <div class="support">
+            <div class="container txt-center">
+                <h2 class="txt-white heading-md">
                     Didn&apos;t find what you are looking for?
                 </h2>
-                <p class="txt-white fs-16 mb-50">
+                <p class="txt-white txt-md mb-50">
                     Don&apos;t worry! Let&apos;s chat with US
                 </p>
-                <div>
-                    <button class="btn btn--wide">REQUEST A CHAT</button>
-                </div>
+                <button class="btn btn--wide txt-upper">Request a chat</button>
             </div>
-        </section>
-        <section class="copyright">
-            <p class="copyright__text txt-white fs-14">
+        </div>
+        <div class="copyright">
+            <p class="copyright__text txt-white txt-sm">
                 Copyright 2022 Code&CO ©. All rights Reserved
             </p>
-        </section>
+        </div>
     </footer>
-    <button id="topButton" class="back-to-top txt-white fs-18" onclick="toTop()">
+    <button id="topButton" class="back-to-top txt-white txt-lg">
         ^
     </button>
 
-    <script>
-        function toTop() {
-            document.documentElement.scrollTop = 0;
-        }
+    <script src="codes/script.js"></script>
 
-        let topButton = document.getElementById('topButton');
-        let navi = document.getElementById('nav');
-
-        window.onscroll = () => {
-            if (document.documentElement.scrollTop > 60) {
-                topButton.style.display = "block";
-                nav.className = 'navigation--scroll';
-            } else {
-                topButton.style.display = "none";
-                nav.className = 'navigation';
-            }
-        };
-    </script>
 </body>
 
 </html>
