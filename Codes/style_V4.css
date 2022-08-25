@@ -235,7 +235,7 @@ a {
 /* hero section */
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5)100%, rgba(0, 0, 0, 0.5)100%), url("../images/hero-4.png") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)100%, rgba(0, 0, 0, 0.5)100%), url("../Images/hero-4.png") no-repeat center center;
     background-size: cover;
     height: 100vh;
     max-height: 800px;
