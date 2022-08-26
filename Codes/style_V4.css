@@ -152,7 +152,8 @@ a {
 }
 
 .menu__items a:hover {
-    color: black;
+    color: white;
+    text-decoration: underline;
     font-weight: 700;
 }
 
