@@ -58,10 +58,6 @@ html {
     font-size: 14px;
 }
 
-.pd-rt-lft-30 {
-    padding: 0px 30px;
-}
-
 .lh-md {
     line-height: 26px;
 }
@@ -293,15 +289,12 @@ a {
 
 /* Details section */
 
-.products {
-    padding: 40px 20px;
-}
-
-.products__ul {
+.card__list {
     font-size: 0px;
+    padding: 20px 0px;
 }
 
-.products__item {
+.card__item {
     display: inline-block;
     padding: 50px 20px;
     width: 25%;
@@ -316,33 +309,34 @@ a {
     color: #858585;
 }
 
-.products__item:nth-child(odd) {
+.card__item:nth-child(odd) {
     border-right: 1px solid #dcdcdc;
 }
 
-.products__item:nth-child(4n+2) {
+.card__item:nth-child(4n+2) {
     border-right: 1px solid #dcdcdc;
 }
 
-.products__item:nth-child(4n+1) {
+.card__item:nth-child(4n+1) {
     border-bottom: 1px solid #dcdcdc;
 }
 
-.products__item:nth-child(4n+2) {
+.card__item:nth-child(4n+2) {
     border-bottom: 1px solid #dcdcdc;
 }
 
-.products__item:nth-child(4n+3) {
+.card__item:nth-child(4n+3) {
     border-bottom: 1px solid #dcdcdc;
 }
 
-.products__item:nth-child(4n+4) {
+.card__item:nth-child(4n+4) {
     border-bottom: 1px solid #dcdcdc;
 }
 
-.products__item:nth-last-child(-n+4) {
+.card__item:nth-last-child(-n+4) {
     border-bottom: 0px;
 }
+
 
 /*footer */
 .support {
@@ -441,18 +435,17 @@ a {
         font-size: 4.2vw;
     }
 
-    .products__item {
+    .card__item {
         width: 100%;
         padding: 40px 70px;
-        border-bottom: 1px solid #dcdcdc;
     }
 
-    .products__item:nth-child(1n) {
+    .card__item:nth-child(1n) {
         border-bottom: 1px solid #dcdcdc;
         border-right: 0px;
     }
 
-    .products__item:nth-last-child(1) {
+    .card__item:nth-last-child(1) {
         border-bottom: 0px;
     }
 
@@ -506,24 +499,24 @@ a {
         bottom: 40px;
     }
 
-    .products__item {
+    .card__item {
         width: 50%;
         padding: 40px;
     }
 
-    .products__item:nth-child(odd) {
+    .card__item:nth-child(odd) {
         border-right: 1px solid #dcdcdc;
     }
 
-    .products__item:nth-child(even) {
+    .card__item:nth-child(even) {
         border-right: 0px;
     }
 
-    .products__item:nth-child(1n){
+    .card__item:nth-child(1n){
         border-bottom: 1px solid #dcdcdc;
     }
 
-    .products__item:nth-last-child(-n+2){
+    .card__item:nth-last-child(-n+2){
         border-bottom: 0px;
     }
 
