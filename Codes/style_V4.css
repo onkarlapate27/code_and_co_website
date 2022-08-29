@@ -70,6 +70,10 @@ html {
     margin: 0px 0px 50px 0px;
 }
 
+.pd-20{
+    padding: 20px 0px;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -98,7 +102,7 @@ a {
 .container{
     max-width: 1600px;
     margin: 0px auto;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
 /* header */
@@ -292,7 +296,6 @@ a {
 
 .card__list {
     font-size: 0px;
-    padding: 20px 0px;
 }
 
 .card__item {
@@ -318,23 +321,11 @@ a {
     border-right: 1px solid #dcdcdc;
 }
 
-.card__item:nth-child(4n+1) {
+.card__list{
     border-bottom: 1px solid #dcdcdc;
 }
 
-.card__item:nth-child(4n+2) {
-    border-bottom: 1px solid #dcdcdc;
-}
-
-.card__item:nth-child(4n+3) {
-    border-bottom: 1px solid #dcdcdc;
-}
-
-.card__item:nth-child(4n+4) {
-    border-bottom: 1px solid #dcdcdc;
-}
-
-.card__item:nth-last-child(-n+4) {
+.card__list:nth-last-child(1){
     border-bottom: 0px;
 }
 
@@ -344,7 +335,7 @@ a {
     width: 100%;
     background-color: #323232;
     height: 288px;
-    padding: 60px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .heading-md{
